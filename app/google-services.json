@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "395691303400",
+    "project_id": "fastlane-f20ce",
+    "storage_bucket": "fastlane-f20ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395691303400:android:e69d031b4d6658f733445d",
+        "android_client_info": {
+          "package_name": "com.example.fastlane"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2ujWBezg7PCb07Pu_x2WyXvLQYVZVyEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
