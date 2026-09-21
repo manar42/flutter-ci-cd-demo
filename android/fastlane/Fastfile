@@ -14,19 +14,20 @@
 # update_fastlane
 
 default_platform(:android)
-
 platform :android do
- desc "distribut to firebase app distribution"
- lane :distribut do
-   sh 'flutter clean'
-   sh 'flutter build apk --release'
+
+  desc "Build and distribute APK to Firebase App Distribution"
+
+  lane :firebase_distribution do
+    sh 'flutter clean'
+    sh 'flutter build apk --release'
   firebase_app_distribution(
     app: "1:395691303400:android:e69d031b4d6658f733445d",
     firebase_cli_token: ENV["FIREBASE_CLI_TOKEN"],
 
     android_artifact_type: "APK",
     android_artifact_path: "../build/app/outputs/apk/release/app-release.apk",
-    testers: 'manarsalah3200@g,ail.com'
+    testers: 'manarsalah3200@gmail.com'
   )
   
    
